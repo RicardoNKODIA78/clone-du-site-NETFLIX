@@ -1,0 +1,30 @@
+Ici on va creer une AppWeb avec une l'API TMDB pour récupérer des données réelles de leur base de données.
+.Fonctionnalités
+1 Ressemble à Netflix.
+2 Site dynamique exécuté sur le serveur Node.js.
+3 Toutes les données proviennent de l’API TMDB.
+4 Page d’informations dédiée aux films dynamiques.
+5 A des bandes-annonces de films et des recommandations.
+6 A un effet de curseur de carte lisse.
+
+Installer NPM
+ $npm int
+
+Ca crée un ficher "package.json"
+Puis installer certainnes Bibliotéques 
+avec : $ npm i express.js nodemon
+
+i - signifie installer.
+- est une bibliothèque dont nous avons besoin pour créer un serveur.
+- est une bibliothèque qui vous permet d’exécuter le serveur de manière transparente même après avoir apporté des modifications au serveur.express.jsnodemon
+
+Une fois l’installation terminée, vous devriez être en mesure de voir le dossier dans votre répertoire node_modulesroot
+
+Maintenant, ouvrez le fichier dans votre éditeur de texte.
+ Et éditez-le un package.json
+
+********************** Remplacez la valeur de la clé par "main""server.js" (avant y avait index.js)
+principal
+
+Supprimer cmd de l’objet.
+ Et ajoutez un nouveau cmd appelé et définissez sa valeur sur ."test" "scripts" "start" "nodemon server.js" et supprimez le texte initial 
