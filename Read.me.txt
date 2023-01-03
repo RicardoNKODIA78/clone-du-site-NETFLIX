@@ -27,4 +27,22 @@ Maintenant, ouvrez le fichier dans votre éditeur de texte.
 principal
 
 Supprimer cmd de l’objet.
- Et ajoutez un nouveau cmd appelé et définissez sa valeur sur ."test" "scripts" "start" "nodemon server.js" et supprimez le texte initial 
+ Et ajoutez un nouveau cmd appelé et définissez sa valeur sur ."test" "scripts" "start" "nodemon server.js" et supprimeServeur.js
+Après l’édition, créez un fichier JS dans le répertoire.package.jsonserver.jsroot
+
+Et écrivez ceci en .server.jsz le texte initial 
+
+ """""""""""" Serveur.js
+Après l’édition, 
+
+créez un fichier JS dans le server.js
+
+Et écrivez ceci en .server.js
+
+Dans server.js (
+    On importe deux bibliothèques, dont path et express par la méthode de "require"
+
+
+    """""""""""""""" path Library est utilisé pour suivre les chemins. """""""""""""""""""""
+    
+)
